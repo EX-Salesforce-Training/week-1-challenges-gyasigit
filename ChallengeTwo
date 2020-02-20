@@ -1,0 +1,33 @@
+public class ChallengeTwo {
+    public void ForLoop(){
+        List <integer> Banana = new List<integer>{1,2,3,4,5,6,7,8,9,10};
+        for( integer a = 0; a<10; a++){
+            system.debug(Banana[a]);
+           
+        }
+    }
+    public void WhileLoop(){
+        integer i = 0;
+        while(i!=10  ){
+            i++;
+             system.debug(i);
+        }
+        system.debug(i);
+    }
+    public void Iffy(){
+       Boolean mango = false;
+       Boolean banana = true;
+        if(mango == true){
+           system.debug('Your fruit is mango');
+        }
+       
+        if (mango == false){
+            if(banana == true){
+                system.debug('Fruits are not a mango just a banana');
+            }
+       
+    }
+
+}
+   
+}
