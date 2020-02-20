@@ -1,0 +1,21 @@
+
+
+public class ChallengeOne {
+Integer Sam;
+        String Joe;
+        Account Sue;
+       
+        public void SetValues(){
+            Sam = 5;
+            Joe = 'Cabin';
+            Sue = new Account();
+            Sue.name = 'Anything';
+        }
+       
+        public void GetValues(){
+            system.debug(Sam);
+            system.debug(Joe);
+            system.debug(Sue);
+        }
+       
+    }
